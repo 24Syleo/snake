@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+		<title>Document</title>
+		<link rel="stylesheet" href="style.css"/>
+		<script type="module" src="main.js"></script>
+	</head>
+	<body>
+		<div class="chooseGame">
+			<select id="snakeColor">
+				<option default value="">Snake color</option>
+				<option value="blue">Blue</option>
+				<option value="green">Green</option>
+				<option value="red">Red</option>
+				<option value="yellow">Yellow</option>
+				<option value="pink">Pink</option>
+			</select>
+			<select id="appleColor">
+				<option default value="">Apple color</option>
+				<option value="blue">Blue</option>
+				<option value="green">Green</option>
+				<option value="red">Red</option>
+				<option value="yellow">Yellow</option>
+				<option value="pink">Pink</option>
+			</select>
+			<select id="pics">
+				<option default value="">Choose playground</option>
+				<option value="./files/terrain.jpg">Football</option>
+				<option value="./files/essai.jpeg">Tree</option>
+				<option value="./files/thai.jpeg">Little boat</option>
+			</select>
+		</div>
+		<div class="dashboard">
+			<button id="start">Start</button>
+			<button id="stop">Stop</button>
+			<button id="clear">Clear</button>
+			<h3 id="score"></h3>
+		</div>
+		<div class="container">
+			<canvas id="canvas"></canvas>
+		</div>
+	</body>
+</html>
